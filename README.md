@@ -6,3 +6,4 @@ To run
 
 ```bash
 docker run --rm -p --name kube-proxy l337ch/docker-kube-proxy /kube-proxy [runtime options]
+```
