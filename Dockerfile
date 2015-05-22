@@ -1,8 +1,6 @@
 FROM tianon/true
 MAINTAINER Lee Chang <leetchang@gmail.com>
 
-ADD kube-apiserver /kube-apiserver
+ADD kube-proxy /kube-proxy
 
-EXPOSE 8080
-
-CMD [ "/kube-apiserver" ]
+CMD [ "/kube-proxy" ]
